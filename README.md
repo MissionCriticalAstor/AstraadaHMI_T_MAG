@@ -17,8 +17,8 @@ DOMYŚLNIE PROGRAM JEST DLA DWÓCH ZASTAWÓW Z MOŻLIWOŚCIĄ DODANIA WIĘKSZEJ 
 
 ABY DODAĆ NASTĘPNE ZESTAWY NALEŻY:
   - W ZAKŁADCE 'Tags -> Data Types -> Array Dimensions and Ranges -> High Bound -> Dim. 1' ZWIĘKSZYĆ TABLICE DLA ZMIENNYCH:
-     > lodowka; wynik_n; wynik_t; wynik_s; wynik_c; porownanie; count
-     > oraz dodac zmienną/zmienne 'stan3', ..., 'stanX'; Data Type: STRING
+     - lodowka; wynik_n; wynik_t; wynik_s; wynik_c; porownanie; count
+     - oraz dodac zmienną/zmienne 'stan3', ..., 'stanX'; Data Type: STRING
   - DODAĆ DO 'Macros -> Native Scripts -> STALE' NASTĘPNY ZESTAW: 0\lodowka[x] = "0x", GDZIE '0x' TO NAZWA OBU CZUJNIKÓW W DANYM ZESTAWIE
   - DODAĆ DO 'Macros -> Native Scripts -> main' NASTĘPNĄ PĘTLE 'IF' I 'porownani', ODPOWIEDNIO WSTAWIAJĄC NR. NASTĘPNEJ LODÓWKI W MIEJSCE '[x]'
   - DODAĆ DO 'Screen 1 (#1)' MIEJSCA DO WYŚIETLANIA DANYCH Z NOWEGO ZESTAWU
